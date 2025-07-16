@@ -1,0 +1,100 @@
+/* ===== Base Styles ===== */
+* {
+  box-sizing: border-box; /* More predictable sizing across elements */
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* ===== Header & Search Bar ===== */
+header {
+  background: #2c3e50;
+  color: #ffffff;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 60%;
+  max-width: 400px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background: #3498db;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* ===== Results Grid ===== */
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* ===== Anime Card ===== */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Like button sticks to bottom */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.25rem 0;
+}
+
+/* ===== Like Button ===== */
+.like-btn {
+  margin-top: auto; /* Push to bottom of flex column */
+  padding: 0.5rem;
+  background-color: #e74c3c; /* Red */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.like-btn.liked {
+  background-color: #2ecc71; /* Green when liked */
+}
