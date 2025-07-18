@@ -1,16 +1,61 @@
-# Anime Search App 🎌
+# Anime Search App
 
-A lightweight Single Page Application (SPA) that lets users search for anime
-titles, browse results, and “like” their favorites — all without page reloads!
+# Phase 1
 
-## ✨ Features
-- **Live Search**: Query the [Jikan API](https://jikan.moe/) for anime data
-- **Dynamic Cards**: See poster, score, and episode count for each title
-- **Like Button**: Toggle favorites locally (client‑side state for now)
-- **Responsive Layout**: Flex‑grid adapts to mobile, tablet, and desktop
+## Project Overview
 
-## 🚀 Getting Started
-1. **Clone or download** this repository
-   ```bash
-   git clone https://github.com/yourusername/anime-search-app.git
-   cd anime-search-app
+**Anime Search App** is a lightweight Single Page Application (SPA) that allows users to:
+
+- Search for anime titles using a public API
+- Browse results dynamically
+- “Like” their favorite anime — all without reloading the page!
+
+It offers a responsive, interactive interface using vanilla JavaScript and provides a simple yet engaging user experience.
+
+---
+## Technologies Used
+  - **JavaScript** – Handles dynamic DOM manipulation and API interaction
+  - **Node.js** – Useful for local testing and running JavaScript via the terminal
+
+## Installations
+Before running the project, make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) – Required for testing scripts in the console
+
+---
+
+## How to run the project
+1. **Fork the repository** to your GitHub account
+2. **Clone the repository** to your local machine:
+```bash
+git https://github.com/EricO166/Phase-1-assignment-PROJECT
+```
+3. Navigate to the folder:
+```bash
+cd Phase-1-assignment-PROJECT
+```
+4. Run the project.
+   node foldername/filename.js
+
+5. Follow prompts you'll be seeing on your screen.
+
+6. To view the web app, simply open index.html in your browser or use a live server in VS Code.
+
+Follow on-screen prompts (if any) and start exploring anime!
+
+
+
+## Author
+Eric Gideon Ochiel
+
+## License
+MIT License
+
+
+
+
+
+
+
+
+

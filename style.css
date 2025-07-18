@@ -1,6 +1,5 @@
-/* ===== Base Styles ===== */
 * {
-  box-sizing: border-box; /* More predictable sizing across elements */
+  box-sizing: border-box;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   color: #333;
 }
 
-/* ===== Header & Search Bar ===== */
+
 header {
   background: #2c3e50;
   color: #ffffff;
@@ -19,7 +18,7 @@ header {
 }
 
 form {
-  margin-top: 1rem;
+  margin-top: 1r
 }
 
 input[type="text"] {
@@ -46,7 +45,6 @@ button:hover {
   background: #2980b9;
 }
 
-/* ===== Results Grid ===== */
 #results {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -54,7 +52,6 @@ button:hover {
   padding: 1rem;
 }
 
-/* ===== Anime Card ===== */
 .card {
   background: #ffffff;
   border-radius: 10px;
@@ -62,8 +59,8 @@ button:hover {
   overflow: hidden;
   padding: 1rem;
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  justify-content: space-between; /* Like button sticks to bottom */
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card img {
@@ -83,11 +80,11 @@ button:hover {
   margin: 0.25rem 0;
 }
 
-/* ===== Like Button ===== */
+
 .like-btn {
-  margin-top: auto; /* Push to bottom of flex column */
+  margin-top: auto;
   padding: 0.5rem;
-  background-color: #e74c3c; /* Red */
+  background-color: #e74c3c;
   color: #ffffff;
   border: none;
   border-radius: 5px;
@@ -96,5 +93,5 @@ button:hover {
 }
 
 .like-btn.liked {
-  background-color: #2ecc71; /* Green when liked */
+  background-color: #2ecc71;
 }
