@@ -41,7 +41,7 @@ cd Phase-1-assignment-PROJECT
 
 6. To view the web app, simply open index.html in your browser or use a live server in VS Code.
 
-Follow on-screen prompts (if any) and start exploring anime!
+Follow on-screen prompts (if any) and start exploring anime! e.g Search for 'NARUTO'
 
 
 

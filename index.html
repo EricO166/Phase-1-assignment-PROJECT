@@ -2,22 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Ensures proper rendering and touch zooming on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anime Search App</title>
 
-    <!-- Main stylesheet -->
+    
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- ======= Header / Search Bar ======= -->
     <header>
       <h1>Anime Search</h1>
 
-      <!-- Search form (no page reload thanks to JS) -->
+      
       <form id="search-form">
-        <!-- Required keeps the field from submitting empty queries -->
         <input
           type="text"
           id="search-input"
@@ -28,13 +25,11 @@
       </form>
     </header>
 
-    <!-- ======= Main App Area ======= -->
+    
     <main>
-      <!-- Dynamic search results get injected here by app.js -->
       <section id="results"></section>
     </main>
 
-    <!-- Main script (placed at the bottom so HTML loads first) -->
     <script src="app.js"></script>
   </body>
 </html>
