@@ -39,7 +39,14 @@ cd Phase-1-assignment-PROJECT
 
 5. Follow prompts you'll be seeing on your screen.
 
-6. To view the web app, simply open index.html in your browser or use a live server in VS Code.
+6. To view the deployed site visit:
+```bash
+ https://phase-1-assignment-project-anime-search.onrender.com/
+ ```
+ or
+ ```bash
+ https://erico166.github.io/Phase-1-assignment-PROJECT/
+ ```
 
 Follow on-screen prompts (if any) and start exploring anime! e.g Search for 'NARUTO'
 
