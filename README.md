@@ -6,7 +6,7 @@
 
 **Anime Search App** is a lightweight Single Page Application (SPA) that allows users to:
 
-- Search for anime titles using a public API
+- Search for anime titles using a public API: Jikan (Jikan.moe)
 - Browse results dynamically
 - “Like” their favorite anime — all without reloading the page!
 
@@ -15,13 +15,6 @@ It offers a responsive, interactive interface using vanilla JavaScript and provi
 ---
 ## Technologies Used
   - **JavaScript** – Handles dynamic DOM manipulation and API interaction
-  - **Node.js** – Useful for local testing and running JavaScript via the terminal
-
-## Installations
-Before running the project, make sure you have the following installed:
-
-- [Node.js](https://nodejs.org/) – Required for testing scripts in the console
-
 ---
 
 ## How to run the project
@@ -34,10 +27,9 @@ git https://github.com/EricO166/Phase-1-assignment-PROJECT
 ```bash
 cd Phase-1-assignment-PROJECT
 ```
-4. Run the project.
-   node foldername/filename.js
+4. Either run the index.html on a liveserver or browser and:
 
-5. Follow prompts you'll be seeing on your screen.
+5. Follow prompts you'll be seeing on your screen. Or:
 
 6. To view the deployed site visit:
 ```bash
